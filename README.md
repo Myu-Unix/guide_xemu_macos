@@ -16,7 +16,7 @@ Start xemu, at first boot allow "input monitoring" in macOS System prefs/Securit
 
 Go to xemu settings, put the files where they belong (BIOS, MPCX, HDD)
 
-![img](/Users/myu/Desktop/cfg.png)
+![img](cfg.png)
 
 try to reboot xemu -> Should have XBOX BIOS boot, no dashboard UI, that's normal.
 
