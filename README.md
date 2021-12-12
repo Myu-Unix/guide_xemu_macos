@@ -16,7 +16,7 @@ Start xemu, at first boot allow "input monitoring" in macOS System prefs/Securit
 
 Go to xemu settings, put the files where they belong (BIOS, MPCX, HDD)
 
-![img](cfg.png)
+![img](/Users/myu/Desktop/cfg.png)
 
 try to reboot xemu -> Should have XBOX BIOS boot, no dashboard UI, that's normal.
 
@@ -35,8 +35,7 @@ Terminal :
 	cd extract-xiso
 	mkdir build
 	cd build
-    /Applications/CMake.app/Contents/bin/cmake ..
-	cmake ..
+    /Applications/CMake.app/Contents/bin/cmake .
 	make
 
 Build ISO (example) :
