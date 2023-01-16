@@ -1,7 +1,5 @@
 ## xemu guide for macOS
 
-v 1.0
-
 ### Software
 
 Download xemu : https://github.com/mborgerson/xemu/releases/latest/download/xemu-macos-universal-release.zip
@@ -12,7 +10,7 @@ Download MCPX boot ROM (mpcx_1.0.bin) : https://www.mediafire.com/file/28zvvhqxj
 
 Download xemu HDD file : https://github.com/mborgerson/xemu-hdd-image/releases/download/1.0/xbox_hdd.qcow2.zip
 
-Start xemu, at first boot allow "input monitoring" in macOS System prefs/Security/Privacy
+Start xemu, at first boot allow "input monitoring" in macOS System Settings/Security/Privacy
 
 Go to xemu settings, put the files where they belong (BIOS, MPCX, HDD)
 
@@ -24,7 +22,7 @@ Download Xbox ISO
 
 Unpack ISO -> Becomes a folder
 
-### Build extract-iso to repack into xISO
+### Build extract-xiso to repack into xISO
 
 Download Cmake https://github.com/Kitware/CMake/releases/download/v3.22.0/cmake-3.22.0-macos-universal.dmg
 
@@ -42,5 +40,4 @@ Build ISO (example) :
 
     ./extract-xiso -c /Users/myu/Downloads/Jet\ Set\ Radio\ Future/
 
-Start xemu with ISO.
-
+Start xemu with newly repacked ISO.
